@@ -1,0 +1,13 @@
+{
+  "name": "7 in 7 Day 5",
+  "version": "1.0",
+  "description": "new tab to cookie explainer",
+  "browser_action": {},
+  "background": {
+    "scripts": ["tabs.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs", "background"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "manifest_version": 2
+}
